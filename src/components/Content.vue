@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import blanquitovideo from '../assets/blanquito-intro.mp4';
 import kofi from '../assets/kofi_logo.png';
+import Calendar from './Calendar.vue';
 </script>
 
 <template>
@@ -30,9 +31,11 @@ import kofi from '../assets/kofi_logo.png';
 
     <div class="center-flexbox">
 
-        <p class="text2">
-            ¡Próximante!
-        </p>
+        <Calendar fecha="Sábado 14" actividad="Chunni FM: Especial del amor"/>
+        <Calendar fecha="Domingo 15" actividad="Campaña DnD"/>
+        <Calendar fecha="Por confirmar" actividad="Retro Chunni Show: Especial Fighting games con lobby abierto"/>
+        <Calendar fecha="Por confirmar" actividad="Stream de arte: Canvas colaborativo"/>
+        <Calendar fecha="Por confirmar" actividad="Jeopardy: Especial Pokémon"/>
 
     </div>
 </template>
