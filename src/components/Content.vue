@@ -33,9 +33,11 @@ import Calendar from './Calendar.vue';
 
         <Calendar fecha="Sábado 14" actividad="Chunni FM: Especial del amor"/>
         <Calendar fecha="Domingo 15" actividad="Campaña DnD"/>
-        <Calendar fecha="Por confirmar" actividad="Retro Chunni Show: Especial Fighting games con lobby abierto"/>
-        <Calendar fecha="Por confirmar" actividad="Stream de arte: Canvas colaborativo"/>
-        <Calendar fecha="Por confirmar" actividad="Jeopardy: Especial Pokémon"/>
+        <Calendar fecha="Martes 17" actividad="Retro Chunni Show: Especial Fighting games con lobby abierto (Fightcade)"/>
+        <Calendar fecha="Miercoles 18" actividad="Jeopardy: Especial Pokémon"/>
+        <Calendar fecha="Jueves 19" actividad="Stream de arte: Canvas colaborativo. SON TODOS BIENVENIDOS"/>
+        <Calendar fecha="Viernes 20" actividad="Video reacciones con <a href='https://x.com/MonseVtuber' target='_blank'>Monse Vtuber!</a>"/>
+        <Calendar fecha="Sábado 21" actividad="Campaña DnD (Segunda parte)"/>
 
     </div>
 </template>

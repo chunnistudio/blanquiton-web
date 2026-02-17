@@ -5,11 +5,18 @@
 <template>
     <div class="calendar-container">
         <p>{{ fecha }}</p>
-        <h1>{{ actividad }}</h1>
+        <h1 v-html="actividad"></h1>
     </div>
 </template>
 
 <style scoped>
+
+    a, a:link, a:visited, a:hover, a:active {
+        color: #008000 !important;
+    }
+
+
+    
     .calendar-container {
         background-color: rgba(127, 242, 222, 0.7);
         box-shadow: 10px 10px 5px lightblue;
